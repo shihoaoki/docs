@@ -1,9 +1,0 @@
-FROM ubuntu:18.04
-USER root
-WORKDIR /home/docs
-
-RUN apt update -y && \
-    apt update -y
-RUN sudo apt install evince texlive-fonts-extra texlive-fonts-recommended texlive-lang-cjk xdvik-ja
-
-VOLUME . .
