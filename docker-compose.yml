@@ -1,0 +1,7 @@
+version: '3'
+services:
+  TexEnv:
+    image: Dockerfile
+    volumes:
+      - .:/app/texenv
+    tty: true
